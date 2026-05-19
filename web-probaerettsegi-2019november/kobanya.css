@@ -1,14 +1,14 @@
-.bevezeto {
+#bevezeto p {
   text-align: justify;
   font-style: italic;
 }
 
-#kologo{
-  float:right;
+#bevezeto p:first-letter {
+  margin-left: 25px;
 }
 
-.bevezeto:first-letter{
-  margin-left: 25px;
+#kologo{
+  float:right;
 }
 
 button {
@@ -16,6 +16,10 @@ button {
   background-color: orange;
   float: right;
   padding: 5px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
 }
 
 .vastag {
@@ -38,12 +42,17 @@ button {
   max-width: 300px;
 }
 
+#vam {
+  display: none;
+}
+
 h2{
   font-variant: small-caps;
   margin: 10px 0px 5px;
   border-bottom: 2px solid darkblue;
+  color: darkblue;
 }
 
 video{
-  width: 70%;
+  width: 100%;
 }
