@@ -1,4 +1,4 @@
-.bevezeto {
+#bevezeto {
   text-align: justify;
   font-style: italic;
 }
@@ -7,8 +7,12 @@
   float:right;
 }
 
-.bevezeto:first-letter{
+#bevezeto:first-letter{
   margin-left: 25px;
+}
+
+nav .nav-link {
+  font-weight: bold;
 }
 
 button {
@@ -42,8 +46,9 @@ h2{
   font-variant: small-caps;
   margin: 10px 0px 5px;
   border-bottom: 2px solid darkblue;
+  color: darkblue;
 }
 
 video{
-  width: 70%;
+  width: 100%;
 }
